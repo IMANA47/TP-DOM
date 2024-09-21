@@ -10,7 +10,7 @@ const hiddenText = document.querySelector('.hidden');
 
 // Modifier le contenu et les styles
 title.textContent = "Manipulation du DOM avec JavaScript!";
-title.style.color = 'blue';
+title.style.color = 'yellow';
 title.style.fontSize = '24px';
 
 // Gérer les événements
