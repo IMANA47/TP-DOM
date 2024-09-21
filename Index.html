@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manipulation du DOM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="title">Bienvenue dans la manipulation du DOM</h1>
+    <button id="toggleMode">Mode sombre</button>
+  </header>
+
+  <main>
+    <section id="content">
+      <p class="text">Ce texte va être changé par JavaScript.</p>
+      <p class="text hidden">Ce texte est caché et va apparaître plus tard.</p>
+    </section>
+
+    <form id="userForm">
+      <label for="username">Entrez votre nom :</label>
+      <input type="text" id="username">
+      <button type="button" id="submitName">Envoyer</button>
+    </form>
+
+    <section id="newElements">
+      <button id="addDiv">Ajouter un div</button>
+      <button id="removeLast">Supprimer le dernier div</button>
+      <div id="elementsContainer"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+￼Enter
